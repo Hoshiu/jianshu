@@ -1,0 +1,73 @@
+.NavItem {
+  line-height: 3.5rem;
+  padding: 0 .9375rem;
+  font-size: 1.0625rem;
+  color: #333;
+  display: inline-block;
+}
+
+.active {
+  color: #ea6f5a;
+}
+
+:global(.slide-enter) {
+  transition: all .2s ease-out;
+}
+
+:global(.slide-enter-active) {
+  width: 14rem;
+}
+
+:global(.slide-exit) {
+  transition: all .2s ease-out;
+}
+
+:global(.slide-exit-active) {
+  width: 11rem;
+}
+
+.SearchInfo {
+  position: absolute;
+  left: 0;
+  top: 3.5rem;
+  width: 17.5rem;
+  padding: 0 1.25rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, .2);
+  background: #fff;
+}
+
+.SearchInfoTitle {
+  margin-top: 1.0625rem;
+  margin-bottom: .9375rem;
+  line-height: 1.25rem;
+  font-size: .875rem;
+  color: #969696;
+}
+
+.SearchInfoSwitch {
+  float: right;
+  font-size: .8125rem;
+  cursor: pointer;
+}
+
+.SearchInfoItem {
+  display: block;
+  float: left;
+  line-height: 1.25rem;
+  font-size: .75rem;
+  padding: 0 .3125rem;
+  margin-right: .625rem;
+  margin-bottom: .9375rem;
+  border: 1px solid #ddd;
+  color: #787878;
+  border-radius: .1875rem;
+}
+
+.spin {
+  display: block;
+  float: left;
+  font-size: .75rem;
+  margin-right: .125rem;
+  transition: all .5s ease-in;
+  transform-origin: center center;
+}

@@ -1,0 +1,22 @@
+.HomeWrapper {
+  overflow: hidden;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.HomeLeft {
+  float: left;
+  width: 625px;
+  margin-left: 15px;
+  padding-top: 30px;
+}
+
+.banner-img {
+  width: 625px;
+  height: 270px;
+}
+
+.HomeRight {
+  float: right;
+  width: 280px;
+}
